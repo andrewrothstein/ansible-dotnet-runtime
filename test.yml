@@ -1,0 +1,10 @@
+---
+- hosts: all
+  roles:
+    - role: '{{playbook_dir}}'
+  tasks:
+    - name: ensure runtime executable is in fact executable
+      command: /usr/local/bin/dotnet --info
+      register: dotnet_observed_version
+    - debug:
+        var: dotnet_observed_version.stdout_lines

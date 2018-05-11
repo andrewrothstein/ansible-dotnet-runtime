@@ -1,0 +1,3 @@
+---
+# defaults file for dotnet-runtime
+dotnet_runtime_ver: '2.0.7'
