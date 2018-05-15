@@ -31,7 +31,7 @@ galaxy_info:
 
 dependencies:
   - src: andrewrothstein.dotnet
-    version: v2.0.2
+    version: v2.0.3
     dotnet_install_type: runtime
     dotnet_ver: '{{dotnet_runtime_ver}}'
     dotnet_subdirs:
