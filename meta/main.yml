@@ -31,7 +31,7 @@ galaxy_info:
 
 dependencies:
   - src: andrewrothstein.dotnet
-    version: v2.0.3
+    version: v2.0.4
     dotnet_install_type: runtime
     dotnet_ver: '{{dotnet_runtime_ver}}'
     dotnet_subdirs:
@@ -41,4 +41,3 @@ dependencies:
       '2.0.7':
         linux-x64: sha512:d8f6035a591b5500a8b81188d834ed4153c4f44f1618e18857c610d0b332d636970fd8a980af7ae3fbff84b9f1da53aa2f45d8d305827ea88992195cd5643027
         osx-64: sha512:0fd31dab707f4c143a382474b93f872c2d1c3dd88fadc882e5fb5958c35c41d9ff150841efcfedf2b4eff0a9af8d76b2ad672df98572f9c10d58b4be2303e8c5
-
