@@ -1,3 +1,29 @@
 ---
 # defaults file for dotnet-runtime
-dotnet_runtime_ver: '2.0.7'
+dotnet_runtime_ver: '3.1.8'
+dotnet_runtime_subdirs:
+  '2.1.22':
+    # https://download.visualstudio.microsoft.com/download/pr/926c221c-a9bd-4022-a0bd-52f93d273883/a8582353d501c69bd991c52a52d79bae/dotnet-runtime-2.1.22-linux-x64.tar.gz
+    linux-x64: 'pr/926c221c-a9bd-4022-a0bd-52f93d273883/a8582353d501c69bd991c52a52d79bae'
+    # https://download.visualstudio.microsoft.com/download/pr/d4edeb5b-0f2c-4815-a838-e7e9037ed493/f0e16cdf1407f2a3046db15df84615c1/dotnet-runtime-2.1.22-linux-musl-x64.tar.gz
+    linux-musl-x64: 'pr/d4edeb5b-0f2c-4815-a838-e7e9037ed493/f0e16cdf1407f2a3046db15df84615c1'
+    # https://download.visualstudio.microsoft.com/download/pr/a9df69ab-96df-4e3a-aa81-1ad6f42214f8/e23168c14104da0b96ddeaa9e170a726/dotnet-runtime-2.1.22-osx-x64.tar.gz
+    osx-x64: 'pr/a9df69ab-96df-4e3a-aa81-1ad6f42214f8/e23168c14104da0b96ddeaa9e170a726'
+  '3.1.8':
+    # https://download.visualstudio.microsoft.com/download/pr/e4e47a0a-132e-416a-b8eb-f3373ad189d9/43af4412e27696c3c16e50f496f6c7af/dotnet-runtime-3.1.8-linux-x64.tar.gz
+    linux-x64: 'pr/e4e47a0a-132e-416a-b8eb-f3373ad189d9/43af4412e27696c3c16e50f496f6c7af'
+    # https://download.visualstudio.microsoft.com/download/pr/cd533aaa-9707-4188-8381-96a37e1102b8/9df9516fd0ebb7e324c5779d035a59a3/dotnet-runtime-3.1.8-linux-musl-x64.tar.gz
+    linux-musl-x64: 'pr/cd533aaa-9707-4188-8381-96a37e1102b8/9df9516fd0ebb7e324c5779d035a59a3'
+    # https://download.visualstudio.microsoft.com/download/pr/d40f886c-8ddd-41e0-94cc-965b8fe861c1/d4f12ce3bef0a2f1ba5a2806c3987ed6/dotnet-runtime-3.1.8-osx-x64.tar.gz
+    osx-x64: 'pr/d40f886c-8ddd-41e0-94cc-965b8fe861c1/d4f12ce3bef0a2f1ba5a2806c3987ed6'
+dotnet_runtime_checksums:
+  # https://dotnetcli.blob.core.windows.net/dotnet/checksums/2.1.22-sha.txt
+  '2.1.22':
+    linux-x64: sha512:cc43892ba56511f94c08d7c50b4d90502ca1ef723302be8759e204068ab7f25a50ef31ce6f640886cf6fd2a21ab768500a6d535ef979f97075f6632a348c2518
+    linux-musl-x64: sha512:8f0281d3d67a457276ea13f3152f8f06f7a420f4ff9f2d1ba7b5b6efb9ee875f8ef3dd64511964a65ca0a41bd4e7e0bfc5c42df5424c812a023345bf4d68fc1d
+    osx-x64: sha512:688fa5ab2fc98cd59d4a5c97017d74b748013e989e2b13452cb2feea6dc6a676b31026059cbaafc0e0a51a134276106d4a48a8fbc048d981e0cd7826caf46a40
+  # https://dotnetcli.blob.core.windows.net/dotnet/checksums/3.1.8-sha.txt
+  '3.1.8':
+    linux-x64: sha512:acfb3233ecd06571a6b289802962a14a02dfb41b8c96e7d1516044d0ee800dbdede2a327bf152752fd26aecf6608c7fe31d28cbcb28f6091f4cadda422adf552
+    linux-musl-x64: sha512:6b441b3d658026af0c4ba3d852f4cde5c3a6336c01f0bfb244b1a2619becb44730c2bdb2c0a86b9ef3767660c776e44ce72b9a0e0bcf428b1e9d82c8a7d96267
+    osx-64: sha512:4c908e012876a557905f1ca68822d9b7497fb694a9695d015839edb959604c5a566073074b396f5a279b0ea8386527fb15cff8a566adb47407b9b381f49ccb3e
