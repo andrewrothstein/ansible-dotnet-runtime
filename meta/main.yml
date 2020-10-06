@@ -27,13 +27,15 @@ galaxy_info:
         - 32
     - name: Ubuntu
       versions:
+        - bionic
+        - focal
         - xenial
   galaxy_tags:
     - development
 
 dependencies:
   - role: andrewrothstein.dotnet
-    version: v3.0.0
+    version: v3.0.1
     dotnet_install_type: runtime
     dotnet_ver: '{{ dotnet_runtime_ver }}'
     dotnet_subdirs: '{{ dotnet_runtime_subdirs[dotnet_runtime_ver] }}'
