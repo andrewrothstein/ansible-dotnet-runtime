@@ -1,21 +1,30 @@
 ---
 # defaults file for dotnet-runtime
-dotnet_runtime_ver: '3.1.8'
+dotnet_runtime_ver: 6.0.4
+
 dotnet_runtime_subdirs:
   '2.1.22':
     # https://download.visualstudio.microsoft.com/download/pr/926c221c-a9bd-4022-a0bd-52f93d273883/a8582353d501c69bd991c52a52d79bae/dotnet-runtime-2.1.22-linux-x64.tar.gz
-    linux-x64: 'pr/926c221c-a9bd-4022-a0bd-52f93d273883/a8582353d501c69bd991c52a52d79bae'
+    linux-x64: pr/926c221c-a9bd-4022-a0bd-52f93d273883/a8582353d501c69bd991c52a52d79bae
     # https://download.visualstudio.microsoft.com/download/pr/d4edeb5b-0f2c-4815-a838-e7e9037ed493/f0e16cdf1407f2a3046db15df84615c1/dotnet-runtime-2.1.22-linux-musl-x64.tar.gz
-    linux-musl-x64: 'pr/d4edeb5b-0f2c-4815-a838-e7e9037ed493/f0e16cdf1407f2a3046db15df84615c1'
+    linux-musl-x64: pr/d4edeb5b-0f2c-4815-a838-e7e9037ed493/f0e16cdf1407f2a3046db15df84615c1
     # https://download.visualstudio.microsoft.com/download/pr/a9df69ab-96df-4e3a-aa81-1ad6f42214f8/e23168c14104da0b96ddeaa9e170a726/dotnet-runtime-2.1.22-osx-x64.tar.gz
-    osx-x64: 'pr/a9df69ab-96df-4e3a-aa81-1ad6f42214f8/e23168c14104da0b96ddeaa9e170a726'
+    osx-x64: pr/a9df69ab-96df-4e3a-aa81-1ad6f42214f8/e23168c14104da0b96ddeaa9e170a726
   '3.1.8':
     # https://download.visualstudio.microsoft.com/download/pr/e4e47a0a-132e-416a-b8eb-f3373ad189d9/43af4412e27696c3c16e50f496f6c7af/dotnet-runtime-3.1.8-linux-x64.tar.gz
-    linux-x64: 'pr/e4e47a0a-132e-416a-b8eb-f3373ad189d9/43af4412e27696c3c16e50f496f6c7af'
+    linux-x64: pr/e4e47a0a-132e-416a-b8eb-f3373ad189d9/43af4412e27696c3c16e50f496f6c7af
     # https://download.visualstudio.microsoft.com/download/pr/cd533aaa-9707-4188-8381-96a37e1102b8/9df9516fd0ebb7e324c5779d035a59a3/dotnet-runtime-3.1.8-linux-musl-x64.tar.gz
-    linux-musl-x64: 'pr/cd533aaa-9707-4188-8381-96a37e1102b8/9df9516fd0ebb7e324c5779d035a59a3'
+    linux-musl-x64: pr/cd533aaa-9707-4188-8381-96a37e1102b8/9df9516fd0ebb7e324c5779d035a59a3
     # https://download.visualstudio.microsoft.com/download/pr/d40f886c-8ddd-41e0-94cc-965b8fe861c1/d4f12ce3bef0a2f1ba5a2806c3987ed6/dotnet-runtime-3.1.8-osx-x64.tar.gz
-    osx-x64: 'pr/d40f886c-8ddd-41e0-94cc-965b8fe861c1/d4f12ce3bef0a2f1ba5a2806c3987ed6'
+    osx-x64: pr/d40f886c-8ddd-41e0-94cc-965b8fe861c1/d4f12ce3bef0a2f1ba5a2806c3987ed6
+  '6.0.4':
+    # https://download.visualstudio.microsoft.com/download/pr/5b08d331-15ac-4a53-82a5-522fa45b1b99/65ae300dd160ae0b88b91dd78834ce3e/dotnet-runtime-6.0.4-linux-x64.tar.gz
+    linux-x64: pr/5b08d331-15ac-4a53-82a5-522fa45b1b99/65ae300dd160ae0b88b91dd78834ce3e
+    # https://download.visualstudio.microsoft.com/download/pr/ef010dec-9dcd-49a7-89a9-e97931a112ac/bef96075e3d70b1365bd0e82634e79e0/dotnet-runtime-6.0.4-linux-musl-x64.tar.gz
+    linux-musl-x64: pr/ef010dec-9dcd-49a7-89a9-e97931a112ac/bef96075e3d70b1365bd0e82634e79e0
+    # https://download.visualstudio.microsoft.com/download/pr/c0bc0428-852d-4884-b536-3d0969a400ba/fe0a9a221c3e665e88b7020633f2cf8e/dotnet-runtime-6.0.4-osx-x64.tar.gz
+    osx-x64: pr/c0bc0428-852d-4884-b536-3d0969a400ba/fe0a9a221c3e665e88b7020633f2cf8e
+
 dotnet_runtime_checksums:
   # https://dotnetcli.blob.core.windows.net/dotnet/checksums/2.1.22-sha.txt
   '2.1.22':
@@ -27,3 +36,7 @@ dotnet_runtime_checksums:
     linux-x64: sha512:acfb3233ecd06571a6b289802962a14a02dfb41b8c96e7d1516044d0ee800dbdede2a327bf152752fd26aecf6608c7fe31d28cbcb28f6091f4cadda422adf552
     linux-musl-x64: sha512:6b441b3d658026af0c4ba3d852f4cde5c3a6336c01f0bfb244b1a2619becb44730c2bdb2c0a86b9ef3767660c776e44ce72b9a0e0bcf428b1e9d82c8a7d96267
     osx-64: sha512:4c908e012876a557905f1ca68822d9b7497fb694a9695d015839edb959604c5a566073074b396f5a279b0ea8386527fb15cff8a566adb47407b9b381f49ccb3e
+  '6.0.4':
+    linux-x64: sha512:001487bfb337d0f737c4e3dedc4bc41b3185922c07c07e8f1d47e4578914fdeeed7421d7af2c4bb5e17ebddd05fde4cb9aea1e8145018dcffeaca70c1fa49bbb
+    linux-musl-x64: sha512:e5b538482f10a667bee3b7482db0ac0cac27b5bddab9f3ab68bd5c5d7c18c5bec2bdcb8cd288052c3f3e186291ee02190ff01896c2835ce32b87e18cd817759e
+    osx-x64: sha512:7a798ce54880533151cc9290129e1a6224e81e657026e5be580ee24742d54e8e8e5f8f3bdee2cb94d5129082e3a2ffd1460f490abb848aaf3558e584e2e2df43
